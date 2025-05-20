@@ -35,8 +35,7 @@ To run the project locally:
   ```
 
 ---
- 
- 
+
 ### 🛠️ Environment Variables
 
 Create a `.env` file at the root of your project:
@@ -91,5 +90,3 @@ lib/
 - [Vercel Commerce](https://github.com/vercel/commerce) for the initial template.
 
 ---
-
- 
