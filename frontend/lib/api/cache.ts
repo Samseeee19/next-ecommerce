@@ -1,4 +1,3 @@
-
 import {
   AGTableModelType,
   Category,
@@ -67,9 +66,7 @@ class MemoryCache {
   }
 }
 
-
 export const cache = new MemoryCache();
-
 
 class LocaleCache {
   private locale: "he" | "en" = "en";
@@ -77,8 +74,8 @@ class LocaleCache {
   get(): "he" | "en" {
     if (typeof document !== "undefined") {
       const cookie = document.cookie
-          .split("; ")
-          .find((row) => row.startsWith("NEXT_LOCALE="));
+        .split("; ")
+        .find((row) => row.startsWith("NEXT_LOCALE="));
       const value = cookie?.split("=")[1];
       this.locale = value === "en" ? "en" : "he";
       return this.locale;
@@ -108,6 +105,5 @@ class LocaleCache {
     return this.isRtl() ? "rtl" : "ltr";
   }
 }
-
 
 export const localeCache = new LocaleCache();

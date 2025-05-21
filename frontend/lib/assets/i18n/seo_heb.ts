@@ -1,11 +1,9 @@
 import { SITE_NAME } from "../../config";
-import {localeCache} from "../../api";
+import { localeCache } from "../../api";
 
 export const metadata_site_title = `${SITE_NAME} - NextJs`;
 export const metadata_site_description =
-    "Modern e-commerce template with storefront and admin panel — built with Next.js for any product-based business.";
-
-
+  "Modern e-commerce template with storefront and admin panel — built with Next.js for any product-based business.";
 
 export const metadata_keywords = [
   "ecommerce template",
@@ -19,32 +17,31 @@ export const metadata_keywords = [
 ];
 
 export function getCategoryTitle(
-    categoryTitle: string,
-    query?: string,
+  categoryTitle: string,
+  query?: string,
 ): string {
-
   if (localeCache.get() === "en") {
     return query
-        ? `Search results for "${query}" in category ${categoryTitle} | ${SITE_NAME}`
-        : `${categoryTitle} | ${SITE_NAME}`;
+      ? `Search results for "${query}" in category ${categoryTitle} | ${SITE_NAME}`
+      : `${categoryTitle} | ${SITE_NAME}`;
   }
 
   return query
-      ? `תוצאות חיפוש עבור "${query}" בקטגוריית ${categoryTitle} | ${SITE_NAME}`
-      : `${categoryTitle} | ${SITE_NAME}`;
+    ? `תוצאות חיפוש עבור "${query}" בקטגוריית ${categoryTitle} | ${SITE_NAME}`
+    : `${categoryTitle} | ${SITE_NAME}`;
 }
 
 export function getCategoryDescription(
-    categoryTitle: string,
-    query?: string,
+  categoryTitle: string,
+  query?: string,
 ): string {
   if (localeCache.get() === "en") {
     return query
-        ? `Products matching "${query}" in category ${categoryTitle}`
-        : `Category ${categoryTitle} – a curated selection of products`;
+      ? `Products matching "${query}" in category ${categoryTitle}`
+      : `Category ${categoryTitle} – a curated selection of products`;
   }
 
   return query
-      ? `מוצרים תואמים ל"${query}" בקטגוריית ${categoryTitle}`
-      : `קטגוריית ${categoryTitle} - מבחר מוצרים ייחודיים`;
+    ? `מוצרים תואמים ל"${query}" בקטגוריית ${categoryTitle}`
+    : `קטגוריית ${categoryTitle} - מבחר מוצרים ייחודיים`;
 }

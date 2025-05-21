@@ -14,9 +14,7 @@ Some design elements may appear more refined in RTL; improvements to LTR layout 
 - 🌐 LTR (English): [modern-ecommerce-store.vercel.app/en](https://modern-ecommerce-store.vercel.app/en)
 - 🔐 Admin Panel: [modern-ecommerce-store.vercel.app/admin](https://modern-ecommerce-store.vercel.app/admin) — includes a built-in login form
 
-
 ---
-
 
 ## 🚀 Getting Started
 
