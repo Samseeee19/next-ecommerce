@@ -36,7 +36,7 @@ export async function CreateUser(
 }
 
 const username = "admin";
-const email = process.env.GMAIL_USER || "admin@admin.com";
+const email = "admin@admin.com";
 const password = "admin";
 CreateUser(username, email, password).catch((err) => {
     console.error(err);

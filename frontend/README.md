@@ -7,12 +7,12 @@ Includes a full admin dashboard, product editor, and order management.
 
 ## 🌐 Live Preview
 
-This project was originally built with a focus on **Hebrew (RTL)** support.  
-Some design elements may appear more refined in RTL; improvements to LTR layout are ongoing.
+This project uses a mixed mock dataset of **Hebrew (RTL)** and **English (LTR)** product and category entries.  
+The layout is fully optimized for both directions, ensuring a seamless multilingual experience.
 
-- 🌍 RTL (Hebrew): [modern-ecommerce-store.vercel.app/he](https://modern-ecommerce-store.vercel.app/he)
-- 🌐 LTR (English): [modern-ecommerce-store.vercel.app/en](https://modern-ecommerce-store.vercel.app/en)
-- 🔐 Admin Panel: [modern-ecommerce-store.vercel.app/admin](https://modern-ecommerce-store.vercel.app/admin) — includes a built-in login form
+- **🇺🇸 LTR (English):** [modern-ecommerce-store.vercel.app/en](https://modern-ecommerce-store.vercel.app/en)
+- **🇮🇱 RTL (Hebrew):** [modern-ecommerce-store.vercel.app/he](https://modern-ecommerce-store.vercel.app/he)
+- **🔐 Admin Panel:** [modern-ecommerce-store.vercel.app/admin](https://modern-ecommerce-store.vercel.app/admin) — includes a built-in login form
 
 ---
 

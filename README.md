@@ -6,12 +6,12 @@ A modern, accessible e-commerce platform built with Next.js 14 (frontend) and Ex
 ---
 ## 🌐 Live Preview
 
-This project was originally built with a focus on **Hebrew (RTL)** support.  
-Some design elements may appear more refined in RTL; improvements to LTR layout are ongoing.
+This project uses a mixed mock dataset of **Hebrew (RTL)** and **English (LTR)** product and category entries.  
+The layout is fully optimized for both directions, ensuring a seamless multilingual experience.
 
-**🌍 RTL (Hebrew):** [modern-ecommerce-store.vercel.app/he](https://modern-ecommerce-store.vercel.app/he)  
-**🌐 LTR (English):** [modern-ecommerce-store.vercel.app/en](https://modern-ecommerce-store.vercel.app/en)  
-**🔐 Admin Panel:** [modern-ecommerce-store.vercel.app/admin](https://modern-ecommerce-store.vercel.app/admin) — includes a built-in login form
+- **🇺🇸 LTR (English):** [modern-ecommerce-store.vercel.app/en](https://modern-ecommerce-store.vercel.app/en)  
+- **🇮🇱 RTL (Hebrew):** [modern-ecommerce-store.vercel.app/he](https://modern-ecommerce-store.vercel.app/he)  
+- **🔐 Admin Panel:** [modern-ecommerce-store.vercel.app/admin](https://modern-ecommerce-store.vercel.app/admin) — includes a built-in login form
 
 
 ---
@@ -51,7 +51,6 @@ To contribute, fork the repository and submit a pull request with your enhanceme
 - ⚡ **Local cache** for categories and products (via client memory)
 - 🧾 **Admin dashboard** with full model management (products, categories, orders, images)
 - 🧠 SEO & Open Graph via **Next.js 14 Metadata API**
-- 🌍 RTL + i18n with **react-intl**
 - ♿ **Accessibility bar** with font scaling and contrast settings
 - 🛒 **Cart powered by Redux** with **persisted state**
 - 🧪 **Playwright-based E2E tests** for key storefront and admin flows

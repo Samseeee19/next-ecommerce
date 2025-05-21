@@ -6,8 +6,8 @@ import { useIntl } from "react-intl";
 import ActionRender from "./ActionRender";
 import OrderItemsRender from "./OrderItemsRender";
 import OrderStatusRender from "./OrderStatusRender";
-import { AGTableModelType } from "../../../lib/types";
-import { localeCache } from "../../../lib/api";
+import { AGTableModelType } from "lib/types";
+import { localeCache } from "lib/api";
 
 const defaultColDef: ColDef = {
   resizable: true,
@@ -23,23 +23,33 @@ const AGTable = ({
   rows: AGTableModelType[];
 }) => {
   const intl = useIntl();
+  const direction = localeCache.dir(); // "rtl" or "ltr"
+  const isRtl = direction === "rtl";
 
   const localizedCols: ColDef<AGTableModelType>[] = cols.map((col) => ({
     ...col,
     headerName: intl.formatMessage({ id: `table.headerName.${col.field}` }),
+    cellStyle: { textAlign: isRtl ? "right" : "left", direction }, // apply per-cell
+    headerClass: isRtl ? "ag-header-cell-rtl" : "ag-header-cell-ltr",
   }));
 
   return (
     <div
       className="ag-theme-alpine"
       data-testid="ag-table"
-      style={{ height: 600, width: "100%", overflowX: "hidden" }}
+      dir={direction}
+      style={{
+        height: 600,
+        width: "100%",
+        overflowX: "auto",
+        direction,
+      }}
     >
       <AgGridReact<AGTableModelType>
         rowData={rows}
-        columnDefs={localizedCols}
+        columnDefs={isRtl ? [...localizedCols].reverse() : localizedCols}
         defaultColDef={defaultColDef}
-        enableRtl={localeCache.isRtl()}
+        enableRtl={isRtl}
         rowHeight={30}
         frameworkComponents={{
           ActionRender,
