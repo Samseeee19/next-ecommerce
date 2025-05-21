@@ -50,9 +50,6 @@ export const metadata = {
     description: metadata_site_description,
     url: baseUrl,
     siteName: SITE_NAME!,
-    // icons: {
-    //   icon: "/favicon.ico",
-    // },
     images: [
       {
         url: ICON_IMAGE_URL,
