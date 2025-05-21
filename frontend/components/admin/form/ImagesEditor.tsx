@@ -63,10 +63,11 @@ export default function ImagesEditor({
               <Grid
                 item
                 xs={12}
+
                 key={index}
                 data-testid={`form-image-${index}`}
               >
-                <Typography fontWeight="bold">
+                <Typography fontWeight="bold" mb={1}>
                   <FormattedMessage
                     id="admin.image.label"
                     values={{ index: index + 1 }}
@@ -168,7 +169,7 @@ export default function ImagesEditor({
                   </Box>
                 )}
 
-                <Divider sx={{ my: 3 }} />
+                <Divider   />
               </Grid>
             ))}
           </Grid>
