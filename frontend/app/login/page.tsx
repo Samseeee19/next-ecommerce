@@ -13,7 +13,7 @@ export default function LoginPage() {
   const intl = useIntl();
 
   const [username, setUsername] = useState("admin");
-  const [password, setPassword] = useState("yaara");
+  const [password, setPassword] = useState("admin");
 
   useEffect(() => {
     const token = localStorage.getItem("token");
