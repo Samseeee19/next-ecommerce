@@ -69,7 +69,7 @@ class MemoryCache {
 export const cache = new MemoryCache();
 
 class LocaleCache {
-  private locale: "he" | "en" = "he";
+  private locale: "he" | "en" = "en";
 
   get(): "he" | "en" {
     if (typeof document === "undefined") return this.locale;
