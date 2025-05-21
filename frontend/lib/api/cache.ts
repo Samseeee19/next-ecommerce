@@ -66,6 +66,7 @@ class MemoryCache {
   }
 }
 
+
 export const cache = new MemoryCache();
 
 class LocaleCache {
